@@ -31,16 +31,14 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<h1>Laurel Geophysics</h1>
-				<img src="http://placehold.it/350x150"></img>
-				<p>Contact Info:</p>
-				<SearchBar onSearchTermChange={term => this.videoSearch(term)} />
+				
+				{/*<SearchBar onSearchTermChange={term => this.videoSearch(term)} />
 				
 				<VideoDetail video={this.state.selectedVideo} />
 
 				<VideoList 
 					onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
-					videos={this.state.videos} />
+					videos={this.state.videos} />*/}
 
 			</div>
 		);
