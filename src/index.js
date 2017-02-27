@@ -31,19 +31,17 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				
-				{/*<SearchBar onSearchTermChange={term => this.videoSearch(term)} />
+				<SearchBar onSearchTermChange={term => this.videoSearch(term)} />
 				
 				<VideoDetail video={this.state.selectedVideo} />
 
 				<VideoList 
 					onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
-					videos={this.state.videos} />*/}
-
+					videos={this.state.videos} />
 			</div>
 		);
 	}
 }
 
 //Take this component's generated HTML and put it on the page (in the DOM)
-ReactDOM.render(<App />, document.querySelector('.container'));
+ReactDOM.render(<App />, document.querySelector('.container#reactExample'));
