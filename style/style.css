@@ -48,3 +48,11 @@
 .dropdown-menu li a:hover {
     background-color: red !important;
 }
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#productList {
+    text-align: center;
+}
